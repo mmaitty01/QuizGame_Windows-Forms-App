@@ -81,18 +81,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\fortnite.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\csgo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\witcher3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\questions.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\q01.png" />
   </ItemGroup>
   <ItemGroup>

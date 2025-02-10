@@ -118,47 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="witcher3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\witcher3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="q07" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Q10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Q10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="q03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="q09" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="q01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="q02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="q08" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="q06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="q07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="q04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="csgo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\csgo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="q09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fortnite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fortnite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="q06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="q08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="q05" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="q01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Q10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Q10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="questions" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\questions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="q091" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q091.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

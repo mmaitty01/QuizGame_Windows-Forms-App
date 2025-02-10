@@ -18,17 +18,58 @@ namespace QuizGame
         int score;
         int percentage;
         int totalQuestions;
+
+        int timeLeft = 5; // เวลาตอบคำถาม (วินาที)
+        Random random = new Random();
+        Timer questionTimer = new Timer();
+
         public Form1()
         {
             InitializeComponent();
             askQuestion(questionNumber);
 
             totalQuestions = 10;
+
+            // ตั้งค่า Timer
+            questionTimer.Interval = 1000; // 1 วินาที
+            questionTimer.Tick += QuestionTimer_Tick;
+            
+        }
+
+        private void StartQuestion()
+        {
+            timeLeft = 5;
+            lblTimer.Text = $"{timeLeft}";
+            questionTimer.Start();
+        }
+
+        private void QuestionTimer_Tick(object sender, EventArgs e)
+        {
+            timeLeft--;
+            lblTimer.Text = $"{timeLeft}";
+
+            if (timeLeft <= 0)
+            {
+                questionTimer.Stop();
+                AutoSelectAnswer(); // หมดเวลาจะสุ่มเลือกคำตอบให้
+            }
+        }
+
+        private void AutoSelectAnswer()
+        {
+            // หาปุ่มตัวเลือกทั้งหมด
+            Button[] answerButtons = { button1, button2, button3, button4 };
+            int randomIndex = random.Next(answerButtons.Length);
+
+            // กระตุ้น Event กดปุ่มแบบสุ่ม
+            ClickAnswerEvent(answerButtons[randomIndex], EventArgs.Empty);
         }
 
 
         private void ClickAnswerEvent(object sender, EventArgs e)
         {
+            questionTimer.Stop(); // หยุดจับเวลา
+
             var senderObject = (Button)sender;
 
             int buttonTag = Convert.ToInt32(senderObject.Tag);
@@ -63,6 +104,8 @@ namespace QuizGame
             questionNumber++;
 
             askQuestion(questionNumber);
+
+            StartQuestion(); // 🛠️ เพิ่มให้เริ่มจับเวลาข้อใหม่
         }
 
         private void askQuestion(int qnum)
@@ -215,5 +258,5 @@ namespace QuizGame
                     break;
             }
         }
-        }
+    }
 }
